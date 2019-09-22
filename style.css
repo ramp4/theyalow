@@ -27,8 +27,7 @@
         url('./assets/fonts/SegoeUI-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
-}   
-                                      
+}                                                     
 @font-face {
     font-family: 'PTSans-Regular';
     src: url('./assets/fonts/PTSans-Regular.woff2') format('woff2'),
@@ -73,20 +72,21 @@
   padding: 0;
   margin: 0 auto;
   width: 1300px;
-  background: #ccc;
   border: solid 1px black;
 }
 .header {
   height: 566px;
+  background-image: url(./assets/header_background.png);
+  background-size: 100%
 }
 .header .row-1 {
-  width: 79%;
+  width: 78.5%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
-  height: 130px;
-  align-items: center;
+  height: 127px;
+  align-items: flex-end;
 }
 .logo {
   display: flex;
@@ -101,26 +101,112 @@
 }
 .logo h1 {
   font-family: LucidaSans-Italic, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 45px;
+  font-size: 44px;
   color: rgba(255, 255, 255, 255);
   text-align: center;
-    margin-left:    
-
+  text-transform: uppercase;
 }
 .nav {
-  width: 410px;
+  width: 453px;
   height: 41px;
   background: #f5c506;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+}
+.nav {
+  padding: 0;
 }
 .nav .item {
   list-style-type: none;
   display: inline-block;
   font-family: SegoeWP, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 17.04912pt;
+  font-size: 17px;
   color: rgba(155, 125, 8, 255);
-  text-align: center;
+  text-transform: uppercase;
 }
+.nav .item-1::before {
+  content: url("./assets/about.svg");
+}
+
+.nav .item-2::before {
+  content: url("./assets/services.svg");
+}
+.nav .item-3::before {
+  content: url("./assets/contact.svg");
+}
+.header .row-2 {
+  width: 77%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 439px;
+  align-items: center;
+}
+.video {
+  width: 549px;
+  height: 327px;
+  background-image: url(./assets/video.png);
+}
+.tagline {
+  font-family: Asap-Regular, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 65px;
+  color: rgba(245, 197, 6, 255);
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0px;
+  width: 42%;
+}
+.tagline .minimal {
+  color: white;
+}
+.main .icon-area {
+  display: flex;
+  height: 212px;
+  justify-content: center;
+  flex-direction: row;
+ background: repeating-linear-gradient(
+  45deg,
+  white,
+  white 3px,
+  #f1f1f1 3px,
+  #f1f1f1 5px
+);
+  
+}
+
+.design,
+.customise,
+.free {
+  width: 26.3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: SegoeUI-Light, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 27px;
+  color: rgba(0, 0, 0, 255);
+  text-align: center;
+  text-transform: uppercase;
+}
+.design div {
+  background-image: url("./assets/design.svg");
+  width: 109px;
+  height: 74px;
+}
+
+.customise div {
+  background-image: url("./assets/customise.svg");
+  width: 91px;
+  height: 95px;
+}
+
+.free div {
+  background-image: url("./assets/free.svg");
+  width: 81px;
+  height: 83px;
+}
+
