@@ -1,14 +1,86 @@
+@font-face {
+    font-family: 'SegoeUI-Bold';
+    src: url('./assets/fonts/SegoeUI-Bold.woff2') format('woff2'),
+        url('./assets/fonts/SegoeUI-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}     
+
+@font-face {
+    font-family: 'SegoeWP';
+    src: url('./assets/fonts/SegoeWP.woff2') format('woff2'),
+        url('./assets/fonts/SegoeWP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeWP-Light';
+    src: url('./assets/fonts/SegoeWP-Light.woff2') format('woff2'),
+        url('./assets/fonts/SegoeWP-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SegoeUI-Light';
+    src: url('./assets/fonts/SegoeUI-Light.woff2') format('woff2'),
+        url('./assets/fonts/SegoeUI-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}   
+                                      
+@font-face {
+    font-family: 'PTSans-Regular';
+    src: url('./assets/fonts/PTSans-Regular.woff2') format('woff2'),
+        url('./assets/fonts/PTSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    src: url('./assets/fonts/SegoeUI.woff2') format('woff2'),
+        url('./assets/fonts/SegoeUI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LucidaSans-Italic';
+    src: url('./assets/fonts/LucidaSans-Italic.woff2') format('woff2'),
+        url('./assets/fonts/LucidaSans-Italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}   
+
+@font-face {
+    font-family: 'PTSans-NarrowBold';
+    src: url('./assets/fonts/PTSans-NarrowBold.woff2') format('woff2'),
+        url('./assets/fonts/PTSans-NarrowBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Asap-Regular';
+    src: url('./assets/fonts/Asap-Regular.woff2') format('woff2'),
+        url('./assets/fonts/Asap-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .body {
   padding: 0;
   margin: 0 auto;
   width: 1300px;
   background: #ccc;
+  border: solid 1px black;
 }
 .header {
   height: 566px;
 }
 .header .row-1 {
-  width: 80%;
+  width: 79%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -24,19 +96,25 @@
 .logo h1 {
   display: inline-block;
 }
+.logo img {
+  width: 79px;
+}
 .logo h1 {
   font-family: LucidaSans-Italic, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 41t;
+  font-size: 45px;
   color: rgba(255, 255, 255, 255);
   text-align: center;
-  }
+    margin-left:    
+
+}
 .nav {
   width: 410px;
   height: 41px;
   background: #f5c506;
   display: flex;
   flex-direction: row;
- justify-content: space-between;
+  justify-content: space-between;
+  align-items: center;
 }
 .nav .item {
   list-style-type: none;
