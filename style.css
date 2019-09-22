@@ -1,0 +1,48 @@
+.body {
+  padding: 0;
+  margin: 0 auto;
+  width: 1300px;
+  background: #ccc;
+}
+.header {
+  height: 566px;
+}
+.header .row-1 {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 130px;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img,
+.logo h1 {
+  display: inline-block;
+}
+.logo h1 {
+  font-family: LucidaSans-Italic, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 41t;
+  color: rgba(255, 255, 255, 255);
+  text-align: center;
+  }
+.nav {
+  width: 410px;
+  height: 41px;
+  background: #f5c506;
+  display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+}
+.nav .item {
+  list-style-type: none;
+  display: inline-block;
+  font-family: SegoeWP, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 17.04912pt;
+  color: rgba(155, 125, 8, 255);
+  text-align: center;
+}
