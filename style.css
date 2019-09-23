@@ -71,13 +71,14 @@
 .body {
   padding: 0;
   margin: 0 auto;
-  width: 1300px;
   border: solid 1px black;
+  width: 1300px;
 }
 .header {
   height: 566px;
   background-image: url(./assets/header_background.png);
-  background-size: 100%
+  background-size: 100%;
+  background-position: center;
 }
 .header .row-1 {
   width: 78.5%;
@@ -171,11 +172,10 @@
  background: repeating-linear-gradient(
   45deg,
   white,
-  white 3px,
+  white 1px,
   #f1f1f1 3px,
-  #f1f1f1 5px
+  #f1f1f1 4px
 );
-  
 }
 
 .design,
@@ -209,4 +209,103 @@
   width: 81px;
   height: 83px;
 }
+.section-1 {
+  height: 509px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./assets/background_section-2.png");
+  background-repeat: repeat;
+}
+.positioner-lorem {
+  height: 111px;
+   width: 78%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: left;
+}
+.lorem {
+  font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 44px;
+  color: rgba(255, 255, 255, 255); 
+}
+
+.section-1 .content {
+  width: 78%;
+  display: flex;
+  flex-direction: row;
+  
+}
+.text,
+.video-2,
+.date {
+  height: 233px;
+}
+.text {
+  width: 33%;
+  background: #ec9e03;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.text p {
+  width: 85%;
+  height: 85%;
+  font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 29px;
+  color: rgba(255, 255, 255, 255);
+  text-align: justify
+}
+.video-2 {
+  width: 31%;
+  background-image: url("./assets/video-2.png");
+  background-size: 100%;
+  background-position: center;
+}
+.positioner-date {
+  width: 78%;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.twitter {
+  width: 32%;
+  background: #ec9e03;
+  margin-left: 3.2%;
+}
+.date {
+  width: 113px;
+  height: 86px;
+  background: #ddb101;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.positioner-slider {
+  width: 69%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 55px;
+  align-items: center;
+  margin-left: 1.5%;
+}
+.slider-area {
+  width: 100%;
+  height: 15px;
+  background: white;
+  border-radius: 10px;
+  opacity: 0.5;
+  
+}
+.slider {
+  width: 22%;
+  background: #ec9e03;
+  height: 15px;
+  border-radius: 10px;
+  margin-left: 27.5%;
+}
+
 
