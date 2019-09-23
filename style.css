@@ -68,6 +68,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'OpenSans';
+    src: url('./assets/fonts/OpenSans.woff2') format('woff2'),
+        url('./assets/fonts/OpenSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 .body {
   padding: 0;
   margin: 0 auto;
@@ -214,7 +224,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("./assets/background_section-2.png");
+  background-image: url("./assets/background_section-1.png");
   background-repeat: repeat;
 }
 .positioner-lorem {
@@ -306,6 +316,86 @@
   height: 15px;
   border-radius: 10px;
   margin-left: 27.5%;
+}
+.section-2 {
+  height: 499px;
+  background-image: url("./assets/background_section-2.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.positioner-lorem-2 {
+  height: 90px;
+  display: flex;
+  align-items: flex-end;
+}
+.lorem-2 {
+  font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 52px;
+  color: rgba(245, 197, 6, 255);
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 79%;
+ align-items: flex-end;
+}
+.devices {
+  display: flex;
+  flex-direction: row;
+  width: 55%;
+  align-items: flex-end;
+  justify-content: space-between;
+
+}
+.pc {
+  background-image: url("./assets/pc.png");
+  width: 344px;
+  height: 299px;
+  background-repeat: no-repeat;
+}
+.tablet {
+  background-image: url("./assets/tablet.png");
+  width: 129px;
+  height: 212px;
+  background-repeat: no-repeat;
+}
+.mobile {
+  background-image: url("./assets/mobile.png");
+  width: 39px;
+  height: 101px;
+  background-repeat: no-repeat;
+}
+.description {
+  height: 68%;
+  width: 37.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+}
+.point {
+  font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 23px;
+  color: rgba(169, 169, 167, 255);
+  list-style:none;
+  margin: 6px 0;
+}
+.point:before{
+  content: '';
+  display: inline-block;
+  height:13px;
+  width: 13px;
+  vertical-align: middle;
+  border-radius:50%;
+  background-color:#f5c506;
+  margin-right:15px;
 }
 
 
