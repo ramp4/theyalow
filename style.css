@@ -75,18 +75,21 @@
     font-weight: normal;
     font-style: normal;
 }
-
+html {
+  font-size: 1px;
+}
 .body {
   padding: 0;
   margin: 0 auto;
   border: solid 1px black;
-  width: 1300px;
+  /* width: 1300px; */
 }
 .header {
   height: 566px;
   background-image: url(./assets/header_background.png);
-  background-size: 100%;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .header .row-1 {
   width: 78.5%;
@@ -110,18 +113,18 @@
   height: 79px;
   background-image: url("./assets/logo.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 .logo h1 {
   font-family: LucidaSans-Italic, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 43px;
+  font-size: 43rem;
   color: rgba(255, 255, 255, 255);
   text-align: center;
   text-transform: uppercase;
   font-weight: lighter;
 }
 .nav {
-  width: 453px;
+  width: 44.5%;
   height: 41px;
   background: #f5c506;
   display: flex;
@@ -140,7 +143,7 @@
   text-decoration: none;
   display: inline-block;
   font-family: SegoeWP, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 17px;
+  font-size: 17rem;
   color: rgba(155, 125, 8, 255);
   text-transform: uppercase;
 }
@@ -197,7 +200,7 @@
   position: absolute;
   background-color: #f5c506;
   height: 41px;
-  width: 453px;
+  width: 100%;
   opacity: 0.25;
   left: -4px;
   top: -4px;
@@ -208,7 +211,7 @@
   position: absolute;
   background-color: #f5c506;
   height: 41px;
-  width: 453px;
+  width: 100%;
   opacity: 0.25;
   left: -8px;
   top: -8px;
@@ -254,8 +257,8 @@
   border-radius: 50%;
   height: 67px;
   width: 67px;
-  top: 131px;
-  left: 242px;
+  top: 40%;
+  left: 44%;
   opacity: 0.75;
 }
 .video .circle::after {
@@ -266,7 +269,7 @@
   opacity: 1;
 }
 .video .row {
-  width: 500px;
+  width: 90%;
   height: 25px;
   position: absolute;
   top: 280px;
@@ -293,7 +296,7 @@
 
 .timer {
   height: 12px;
-  width: 404px;
+  width: 95%;
   border-radius: 10px;
 }
 
@@ -320,7 +323,7 @@
 }
 .tagline {
   font-family: Asap-Regular, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 65px;
+  font-size: 65rem;
   color: rgba(245, 197, 6, 255);
   text-align: center;
   text-transform: uppercase;
@@ -359,7 +362,7 @@
   justify-content: space-between;
   align-items: center;
   font-family: SegoeUI-Light, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 27px;
+  font-size: 27rem;
   color: rgba(0, 0, 0, 255);
   text-align: center;
   text-transform: uppercase;
@@ -461,7 +464,7 @@
 }
 .lorem {
   font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 38px;
+  font-size: 38rem;
   color: rgba(255, 255, 255, 255); 
   text-transform: uppercase;
 }
@@ -499,7 +502,7 @@
   width: 85%;
   height: 85%;
   font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 29px;
+  font-size: 29rem;
   color: rgba(255, 255, 255, 255);
   
 }
@@ -517,8 +520,8 @@
   border-radius: 50%;
   height: 61px;
   width: 61px;
-  top: 93px;
-  left: 130px;
+  top: 40%;
+  left: 42%;
   opacity: 0.75;
 }
 .video-2 .circle::after {
@@ -565,7 +568,7 @@
   position: absolute;
   text-decoration: none;
   font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 25px;
+  font-size: 25rem;
   color: rgba(255, 255, 255, 255);
   top: 4%;
   right: 4%;
@@ -581,13 +584,13 @@
 }
 .number {
   font-family: SegoeUI-Bold, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 50px;
+  font-size: 50rem;
   color: rgba(255, 255, 255, 255);
   margin: 0;
 }
 .month {
   font-family: SegoeUI, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 21px;
+  font-size: 21rem;
   color: rgba(178, 101, 41, 255);
   text-transform: uppercase;
   margin-top: -10px;
@@ -620,7 +623,7 @@
   height: 499px;
   background-image: url("./assets/background_section-2.png");
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   display: flex;
@@ -635,7 +638,7 @@
 }
 .lorem-2 {
   font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 52px;
+  font-size: 52rem;
   color: rgba(245, 197, 6, 255);
 }
 .row {
@@ -681,7 +684,7 @@
 }
 .point {
   font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 23px;
+  font-size: 23rem;
   color: rgba(169, 169, 167, 255);
   list-style:none;
   margin: 6px 0;
@@ -707,7 +710,7 @@
   height: 51px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   width: 17%;
   margin-left: 11%;
   align-items: center;
@@ -717,15 +720,32 @@
   height: 51px;
   background-image: url("./assets/logo.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 .footer-logo span {
   font-family: LucidaSans-Italic, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 31px;
+  font-size: 31rem;
   color: rgba(255, 255, 255, 255);
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0px 1px 5px #000000;
 }
 
+@media (max-width: 1150px)   {
+  html {
+    font-size: 0.9px;
+  }
+ 
+  .section-2 .row {
+    width: 90%;
+  }
+ 
+@media (max-width: 1050px)   {
+  html {
+    font-size: 0.8px;
+  }
+  .section-2 .row {
+    width: 100%;
+  }
+}
 
